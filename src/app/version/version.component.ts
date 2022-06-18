@@ -7,6 +7,7 @@ import { Version } from '../version';
   styleUrls: ['./version.component.css']
 })
 
+
 export class VersionComponent implements OnInit {
   versions: Version[] = [];
   constructor(public service : VersionService) { }

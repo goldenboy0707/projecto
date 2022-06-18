@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { AnyCatcher } from 'rxjs/internal/AnyCatcher';
 import { Version } from './version';
 
+
 @Injectable()
 export class VersionService {
   private versionUrl: string;
