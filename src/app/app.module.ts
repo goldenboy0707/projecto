@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { VersionComponent } from './version/version.component';
 import {HttpClientModule} from '@angular/common/http'
 import { VersionService } from './version.service';
+
+
 @NgModule({
   declarations: [
     AppComponent,
